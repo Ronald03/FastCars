@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+#myCanvas {
+  border: 1px solid red;
+  background: black;
+}
+
+img {
+  display: none;
+  width: 150px;
+  height: 200px;
+}

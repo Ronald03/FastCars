@@ -1,2 +1,0 @@
-# FastCars
-Created with CodeSandbox
