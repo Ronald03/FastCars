@@ -107,10 +107,10 @@ export default class Game {
     ctx.rect(0, 0, this.screenWidth, this.screenHeight);
     ctx.fillStyle = "rgba(0, 0, 0, 0.2)";
     ctx.fill();
-    ctx.font = "30px Arial";
+    ctx.font = "bold 30pt Arial";
     ctx.fillStyle = "#e60000";
     ctx.textAlign = "center";
-    ctx.fillText("Paused", this.screenWidth / 2, this.screenHeight / 2);
+    ctx.fillText("Paused", this.screenWidth / 2 - 30, this.screenHeight / 2);
   }
 
   togglePause() {
