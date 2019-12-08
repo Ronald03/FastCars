@@ -52,7 +52,7 @@ export default class Game {
       this.fogline.push(new Fogline());
     }
     //push a fog line to the array every 100 frames
-    if (this.everyinterval(100) && this.gamestate === GAMESTATE.RUNNING) {
+    if (this.everyinterval(150) && this.gamestate === GAMESTATE.RUNNING) {
       this.obstacleCar.push(
         new Car(this, this.obstaclePos[this.ranXPos(2)], this.carPos.y)
       );
@@ -87,7 +87,7 @@ export default class Game {
     });
 
     [...this.obstacleCar].forEach(object => {
-      object.position.y += 10;
+      object.position.y += 5;
     });
   }
 
